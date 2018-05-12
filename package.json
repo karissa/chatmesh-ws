@@ -1,0 +1,20 @@
+{
+  "name": "chatmesh-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Karissa McKelvey",
+  "license": "AGPL",
+  "dependencies": {
+    "JSONStream": "^1.3.2",
+    "chatmesh": "^1.0.0",
+    "minimist": "^1.2.0",
+    "pump": "^3.0.0",
+    "random-access-memory": "^3.0.0",
+    "to2": "^1.0.0",
+    "websocket-stream": "^5.1.2"
+  }
+}
