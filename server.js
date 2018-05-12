@@ -6,8 +6,8 @@ var fs = require('fs')
 var pump = require('pump')
 var to = require('to2')
 
-var Mesh = require('chatmesh/mesh')
-var Swarm = require('chatmesh/swarm')
+var Mesh = require('chatmesh-db')
+var Swarm = require('chatmesh-db/swarm')
 
 var argv = minimist(process.argv.slice(2))
 var server = http.createServer(function (req, res) {

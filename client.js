@@ -3,7 +3,7 @@ var ram = require('random-access-memory')
 var to = require('to2')
 var pump = require('pump')
 
-var Mesh = require('chatmesh/mesh')
+var Mesh = require('chatmesh-db')
 
 var addr = window.location.pathname.split('/')[1]
 var seen = {}
